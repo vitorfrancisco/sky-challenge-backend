@@ -1,4 +1,4 @@
-![SKY - NODEJS CHALLENGE](https://imgur.com/mRzhr21.png)
+*SKY - NODEJS CHALLENGE*
 
 ## **Dependencies**:
 ---

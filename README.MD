@@ -32,20 +32,18 @@ Below are listed all the endpoints in this microservice:
 
 ---
 ### Success:
-The successes have specific codes and must follow an increasing order of +2 for each new success generated (in even numbers, always starting at 10). Currently the project has 3 success codes that are:
+
 
 | Status |
 |--------|
 | 200    |
 
 ### Errors:
-The errors have specific codes and must follow an increasing order of +2 for each new error generated (in odd numbers, always starting at 10). Currently the project has 4 error codes that are:
 
 | Status | Type | Description |
 |--------|------|-------------|
 |  400   | Bad Request | Invalid data being submitted to any endpoint |
 |  401   | Unauthorized | Request endpoints without providing access token |
-|  403   | Forbidden | Request without permission (based on role) |
 
 ### Response delivery (for Front-end purposes):
 All the responses listed above are delivered in a JSON format. See example below:
